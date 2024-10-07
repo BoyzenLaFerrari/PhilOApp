@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "55086727413",
+    "project_id": "philoapp-55e9a",
+    "storage_bucket": "philoapp-55e9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55086727413:android:2ff6398ec3af63610785bc",
+        "android_client_info": {
+          "package_name": "com.example.philoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5BVMbM4Qvf-dqiIIkV8Z-8zZEdWcvScs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

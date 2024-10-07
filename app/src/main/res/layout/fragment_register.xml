@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Logins.RegisterFragment" >
+
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="410dp"
+        android:layout_height="241dp"
+        android:src="@drawable/index2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Create An Account"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.974"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView8" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="374dp"
+        android:layout_height="352dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Email"
+            android:textSize="24sp"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/editTextText6"
+            android:layout_width="367dp"
+            android:layout_height="73dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/edittext_background"
+            android:ems="10"
+            android:hint="Please enter your email address"
+            android:inputType="text"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText,LabelFor" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Create Password"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword3"
+            android:layout_width="367dp"
+            android:layout_height="73dp"
+            android:layout_gravity="center"
+            android:background="@drawable/edittext_background"
+            android:ems="10"
+            android:hint="Create your Password"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            tools:ignore="HardcodedText,LabelFor" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Confirm Password"
+            android:textSize="24sp"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword4"
+            android:layout_width="367dp"
+            android:layout_height="73dp"
+            android:layout_gravity="center"
+            android:background="@drawable/edittext_background"
+            android:ems="10"
+            android:hint="Confirm yourPassword"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            tools:ignore="HardcodedText,LabelFor" />
+
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:text="Register"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
